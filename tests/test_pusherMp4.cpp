@@ -134,7 +134,8 @@ int domain(const string & filePath,const string & pushUrl){
 int main(int argc,char *argv[]){
     //可以使用test_server生成的mp4文件
 	//文件使用绝对路径，推流url支持rtsp和rtmp
-    return domain("/Users/xzl/Desktop/bear-1280x720-long.mp4","rtsp://127.0.0.1/live/rtsp_push");
+    //return domain("/Users/xzl/Desktop/bear-1280x720-long.mp4","rtsp://127.0.0.1/live/rtsp_push");
+    return domain("/home/kelinlang/workspace/testFiles/E1.mp4","rtmp://192.168.2.162:1936/live/test");
 }
 
 
